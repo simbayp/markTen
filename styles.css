@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+/* Remove browser CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fed7aa;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  color: #44403c;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: auto;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.details {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.input-label {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.input {
+  background-color: #d4d4d8;
+  height: 40px;
+  width: 200px;
+  border: 3px solid #44403c;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  padding-left: 5px;
+}
+
+#check-btn {
+  background-color: #d4d4d8;
+  height: 40px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 30px;
+  border: 3px solid #44403c;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+#error-msg,
+#return-msg {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+table {
+  font-size: 1.5rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table caption {
+  font-weight: 700;
+  margin: 20px;
+}
+
+th,
+td {
+  padding: 0.3rem 0.4rem;
+  border: 3px solid #44403c;
+}
+
+footer {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 140px 0 0;
+}
+
+footer a {
+  text-decoration: none;
+}
